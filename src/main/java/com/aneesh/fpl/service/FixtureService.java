@@ -8,5 +8,5 @@ public interface FixtureService {
 
     public List<Fixture> findAll();
 
-    public Fixture findTeam(int id);
+    public Fixture findFixture(int id);
 }

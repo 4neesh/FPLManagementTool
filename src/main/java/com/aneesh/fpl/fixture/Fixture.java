@@ -28,6 +28,8 @@ public class Fixture {
     private int gameweek;
 
 
+    public Fixture() {
+    }
 
     public Fixture(int id, Team home, Team away, int gameWeek) {
         this.id = id;
@@ -66,6 +68,8 @@ public class Fixture {
         this.away = away;
     }
 
+
+
     public int getGameweek() {
         return gameweek;
     }
@@ -73,4 +77,15 @@ public class Fixture {
     public void setGameweek(int gameweek) {
         this.gameweek = gameweek;
     }
+
+    @Override
+    public String toString() {
+        return "Fixture{" +
+                "id=" + id +
+                ", home=" + home +
+                ", away=" + away +
+                ", gameweek=" + gameweek +
+                '}';
+    }
+
 }
