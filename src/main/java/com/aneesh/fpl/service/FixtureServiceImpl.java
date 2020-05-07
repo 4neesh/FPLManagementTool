@@ -15,8 +15,8 @@ public class FixtureServiceImpl implements FixtureService {
     private FixtureRepository fixtureRepository;
 
     @Autowired
-    public FixtureServiceImpl(FixtureRepository fixtureRepository) {
-        fixtureRepository = fixtureRepository;
+    public FixtureServiceImpl(FixtureRepository theFixtureRepository) {
+        fixtureRepository = theFixtureRepository;
     }
 
 

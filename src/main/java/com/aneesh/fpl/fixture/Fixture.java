@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import com.aneesh.fpl.team.Team;
 
 @Entity
-@Table(name = "fpl_fixtures")
+@Table(name = "fixtures")
 public class Fixture {
 
 	@Id
@@ -19,10 +19,10 @@ public class Fixture {
     private int id;
 	
 	@Column(name="home")
-    private Team home;
+    private String home;
 	
 	@Column(name="away")
-    private Team away;
+    private String away;
 	
 	@Column(name="gameweek")
     private int gameweek;
@@ -31,14 +31,14 @@ public class Fixture {
     public Fixture() {
     }
 
-    public Fixture(int id, Team home, Team away, int gameWeek) {
+    public Fixture(int id, String home, String away, int gameWeek) {
         this.id = id;
         this.home = home;
         this.away = away;
         this.gameweek = gameWeek;
     }
 
-    public Fixture(Team home, Team away, int gameWeek) {
+    public Fixture(String home, String away, int gameWeek) {
         this.home = home;
         this.away = away;
         this.gameweek = gameWeek;
@@ -52,19 +52,19 @@ public class Fixture {
         this.id = id;
     }
 
-    public Team getHome() {
+    public String getHome() {
         return home;
     }
 
-    public void setHome(Team home) {
+    public void setHome(String home) {
         this.home = home;
     }
 
-    public Team getAway() {
+    public String getAway() {
         return away;
     }
 
-    public void setAway(Team away) {
+    public void setAway(String away) {
         this.away = away;
     }
 

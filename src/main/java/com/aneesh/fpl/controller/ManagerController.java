@@ -16,8 +16,8 @@ public class ManagerController {
 
     private FixtureService fixtureService;
 
-    public ManagerController(FixtureService fixtureService){
-        this.fixtureService = fixtureService;
+    public ManagerController(FixtureService theFixtureService){
+        fixtureService = theFixtureService;
     }
 
     @GetMapping("/fixtures")

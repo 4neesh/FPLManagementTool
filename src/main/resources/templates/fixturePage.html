@@ -12,25 +12,26 @@
 <div class="container">
     <hr>
     <h2>
-        Hello World
+        FPL Fixtures 2019-20
     </h2>
 
 <table class="table table-bordered table-striped">
     <thead class="thead-dark">
     <tr>
-        <th>First name</th>
-        <th>Last name </th>
         <th>Gameweek</th>
+        <th>Home</th>
+        <th>Away </th>
     </tr>
     </thead>
 <tbody>
 
 <tr th:each="tempFixture : ${fixture}">
+    <td th:text="${tempFixture.gameweek}"/>
+
     <td th:text="${tempFixture.home}"/>
 
     <td th:text="${tempFixture.away}"/>
 
-    <td th:text="${tempFixture.gameweek}"/>
 
 </tr>
 </tbody>
