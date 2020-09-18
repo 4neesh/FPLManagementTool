@@ -1,13 +1,14 @@
 package com.aneesh.fpl;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import static org.junit.Assert.assertTrue;
 
-@SpringBootTest
-class FplManagerApplicationTests {
+import org.junit.Test;
+
+public class FplManagerApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void firstTest() {
+		assertTrue("basic test not working", true);
 	}
 
 }
