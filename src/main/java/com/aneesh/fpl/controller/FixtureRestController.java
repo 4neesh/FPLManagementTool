@@ -18,10 +18,7 @@ public class FixtureRestController {
 
     private List<Fixture> fixtures;
 
-    @GetMapping("/test")
-    public String sayHi(){
-        return "HELLO";
-    }
+
 
     @GetMapping("/fixtureRest")
     public List<Fixture> getFixures(){
