@@ -19,6 +19,10 @@ public class FixtureRestController {
     private List<Fixture> fixtures;
 
 
+    @GetMapping("/fixture/{n}")
+    public Fixture getFixture() {
+    	return fixtureService.findFixture(1);
+    }
 
     @GetMapping("/fixtureRest")
     public List<Fixture> getFixures(){
