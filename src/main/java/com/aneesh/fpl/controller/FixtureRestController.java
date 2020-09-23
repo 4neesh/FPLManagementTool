@@ -21,7 +21,7 @@ public class FixtureRestController {
     private List<Fixture> fixtures;
 
 
-    @GetMapping("/fixture/{id}")
+    @GetMapping("/getFixture/{id}")
     public Fixture getFixture(@PathVariable int id ) {
     	return fixtureService.findFixture(id);
     }
