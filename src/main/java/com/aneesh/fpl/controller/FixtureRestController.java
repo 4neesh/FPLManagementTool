@@ -1,11 +1,13 @@
 package com.aneesh.fpl.controller;
 
-import com.aneesh.fpl.fixture.Fixture;
-import com.aneesh.fpl.service.FixtureService;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import com.aneesh.fpl.fixture.Fixture;
+import com.aneesh.fpl.service.FixtureService;
 
 @RestController
 public class FixtureRestController {
@@ -19,9 +21,9 @@ public class FixtureRestController {
     private List<Fixture> fixtures;
 
 
-    @GetMapping("/fixture/{n}")
-    public Fixture getFixture() {
-    	return fixtureService.findFixture(1);
+    @GetMapping("/fixture/{id}")
+    public Fixture getFixture(@PathVariable int id ) {
+    	return fixtureService.findFixture(id);
     }
 
     @GetMapping("/fixtureRest")
