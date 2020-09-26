@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.Optional;
 
 import com.aneesh.fpl.dao.FixtureRepository;
+import com.aneesh.fpl.entity.Fixture;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.aneesh.fpl.fixture.Fixture;
 
 @Service
 public class FixtureServiceImpl implements FixtureService {

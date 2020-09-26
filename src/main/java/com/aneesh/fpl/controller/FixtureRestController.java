@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aneesh.fpl.fixture.Fixture;
+import com.aneesh.fpl.entity.Fixture;
 import com.aneesh.fpl.service.FixtureService;
 
 @RestController

@@ -1,8 +1,8 @@
 package com.aneesh.fpl.service;
 
-import com.aneesh.fpl.fixture.Fixture;
-
 import java.util.List;
+
+import com.aneesh.fpl.entity.Fixture;
 
 public interface FixtureService {
 

@@ -1,7 +1,7 @@
 package com.aneesh.fpl.controller;
 
 
-import com.aneesh.fpl.fixture.Fixture;
+import com.aneesh.fpl.entity.Fixture;
 import com.aneesh.fpl.service.FixtureService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

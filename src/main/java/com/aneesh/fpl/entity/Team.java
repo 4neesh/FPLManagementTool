@@ -1,4 +1,4 @@
-package com.aneesh.fpl.team;
+package com.aneesh.fpl.entity;
 
 public enum Team {
     ARS,
