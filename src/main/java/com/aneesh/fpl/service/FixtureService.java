@@ -9,4 +9,6 @@ public interface FixtureService {
     public List<Fixture> findAll();
 
     public Fixture findFixture(int id);
+    
+    public void save(Fixture fixture);
 }

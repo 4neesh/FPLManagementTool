@@ -36,4 +36,8 @@ public class FixtureServiceImpl implements FixtureService {
         }
         return null;
     }
+    
+    public void save(Fixture fixture) {
+    	fixtureRepository.save(fixture);
+    }
 }

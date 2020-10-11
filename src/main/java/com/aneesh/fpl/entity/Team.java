@@ -4,7 +4,7 @@ public enum Team {
     ARS,
     AST,
     BHA,
-    BOU,
+    WBA,
     BUR,
     CHE,
     CRY,
@@ -14,11 +14,11 @@ public enum Team {
     MCY,
     MUN,
     NEW,
-    NOR,
+    FUL,
     SHU,
     SOT,
     TOT,
-    WAT,
+    LEE,
     WHU,
     WOL
 
