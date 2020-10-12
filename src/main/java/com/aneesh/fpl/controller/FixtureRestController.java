@@ -28,7 +28,7 @@ public class FixtureRestController {
     	return fixtureService.findFixture(id);
     }
 
-    @GetMapping("/fixtureRest")
+    @GetMapping("/getFixtures")
     public List<Fixture> getFixures(){
         fixtures = fixtureService.findAll();
         return fixtures;
