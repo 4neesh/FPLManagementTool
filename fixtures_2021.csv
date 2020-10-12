@@ -1,0 +1,378 @@
+﻿Home,Away,Gameweek
+Brighton & Hove Albion,Chelsea,1
+Crystal Palace,Southampton,1
+Fulham,Arsenal,1
+Sheffield United,Wolves,1
+Tottenham Hotspur,Everton,1
+West Bromwich Albion ,Leicester,1
+West Ham United,Newcastle United,1
+Arsenal,West Ham United,2
+Aston Villa ,Sheffield United,2
+Chelsea,Liverpool,2
+Everton,West Bromwich Albion ,2
+Leeds United,Fulham,2
+Leicester,Burnley,2
+Manchester United,Crystal Palace,2
+Newcastle United,Brighton & Hove Albion,2
+Southampton,Tottenham Hotspur,2
+Wolves,Manchester City,2
+Brighton & Hove Albion,Manchester United,3
+Burnley,Southampton,3
+Crystal Palace,Everton,3
+Fulham,Aston Villa ,3
+Liverpool,Arsenal,3
+Manchester City,Leicester,3
+Sheffield United,Leeds United,3
+Tottenham Hotspur,Newcastle United,3
+West Bromwich Albion ,Chelsea,3
+West Ham United,Wolves,3
+Arsenal,Sheffield United,4
+Aston Villa ,Liverpool,4
+Chelsea,Crystal Palace,4
+Everton,Brighton & Hove Albion,4
+Leeds United,Manchester City,4
+Leicester,West Ham United,4
+Manchester United,Tottenham Hotspur,4
+Newcastle United,Burnley,4
+Southampton,West Bromwich Albion ,4
+Wolves,Fulham,4
+Chelsea,Southampton,5
+Crystal Palace,Brighton & Hove Albion,5
+Everton,Liverpool,5
+Leeds United,Wolves,5
+Leicester,Aston Villa ,5
+Manchester City,Arsenal,5
+Newcastle United,Manchester United,5
+Sheffield United,Fulham,5
+Tottenham Hotspur,West Ham United,5
+West Bromwich Albion ,Burnley,5
+Arsenal,Leicester,6
+Aston Villa ,Leeds United,6
+Brighton & Hove Albion,West Bromwich Albion ,6
+Burnley,Tottenham Hotspur,6
+Fulham,Crystal Palace,6
+Liverpool,Sheffield United,6
+Manchester United,Chelsea,6
+Southampton,Everton,6
+West Ham United,Manchester City,6
+Wolves,Newcastle United,6
+Aston Villa ,Southampton,7
+Burnley,Chelsea,7
+Fulham,West Bromwich Albion ,7
+Leeds United,Leicester,7
+Liverpool,West Ham United,7
+Manchester United,Arsenal,7
+Newcastle United,Everton,7
+Sheffield United,Manchester City,7
+Tottenham Hotspur,Brighton & Hove Albion,7
+Wolves,Crystal Palace,7
+Arsenal,Aston Villa ,8
+Brighton & Hove Albion,Burnley,8
+Chelsea,Sheffield United,8
+Crystal Palace,Leeds United,8
+Everton,Manchester United,8
+Leicester,Wolves,8
+Manchester City,Liverpool,8
+Southampton,Newcastle United,8
+West Bromwich Albion ,Tottenham Hotspur,8
+West Ham United,Fulham,8
+Aston Villa ,Brighton & Hove Albion,9
+Burnley,Crystal Palace,9
+Fulham,Everton,9
+Leeds United,Arsenal,9
+Liverpool,Leicester,9
+Manchester United,West Bromwich Albion ,9
+Newcastle United,Chelsea,9
+Sheffield United,West Ham United,9
+Tottenham Hotspur,Manchester City,9
+Wolves,Southampton,9
+Arsenal,Wolves,10
+Brighton & Hove Albion,Liverpool,10
+Chelsea,Tottenham Hotspur,10
+Crystal Palace,Newcastle United,10
+Everton,Leeds United,10
+Leicester,Fulham,10
+Manchester City,Burnley,10
+Southampton,Manchester United,10
+West Bromwich Albion ,Sheffield United,10
+West Ham United,Aston Villa ,10
+Aston Villa ,Newcastle United,11
+Brighton & Hove Albion,Southampton,11
+Burnley,Everton,11
+Chelsea,Leeds United,11
+Liverpool,Wolves,11
+Manchester City,Fulham,11
+Sheffield United,Leicester,11
+Tottenham Hotspur,Arsenal,11
+West Bromwich Albion ,Crystal Palace,11
+West Ham United,Manchester United,11
+Arsenal,Burnley,12
+Crystal Palace,Tottenham Hotspur,12
+Everton,Chelsea,12
+Fulham,Liverpool,12
+Leeds United,West Ham United,12
+Leicester,Brighton & Hove Albion,12
+Manchester United,Manchester City,12
+Newcastle United,West Bromwich Albion ,12
+Southampton,Sheffield United,12
+Wolves,Aston Villa ,12
+Arsenal,Southampton,13
+Aston Villa ,Burnley,13
+Fulham,Brighton & Hove Albion,13
+Leeds United,Newcastle United,13
+Leicester,Everton,13
+Liverpool,Tottenham Hotspur,13
+Manchester City,West Bromwich Albion ,13
+Sheffield United,Manchester United,13
+West Ham United,Crystal Palace,13
+Wolves,Chelsea,13
+Brighton & Hove Albion,Sheffield United,14
+Burnley,Wolves,14
+Chelsea,West Ham United,14
+Crystal Palace,Liverpool,14
+Everton,Arsenal,14
+Manchester United,Leeds United,14
+Newcastle United,Fulham,14
+Southampton,Manchester City,14
+Tottenham Hotspur,Leicester,14
+West Bromwich Albion ,Aston Villa ,14
+Arsenal,Chelsea,15
+Aston Villa ,Crystal Palace,15
+Fulham,Southampton,15
+Leeds United,Burnley,15
+Leicester,Manchester United,15
+Liverpool,West Bromwich Albion ,15
+Manchester City,Newcastle United,15
+Sheffield United,Everton,15
+West Ham United,Brighton & Hove Albion,15
+Wolves,Tottenham Hotspur,15
+Brighton & Hove Albion,Arsenal,16
+Burnley,Sheffield United,16
+Chelsea,Aston Villa ,16
+Crystal Palace,Leicester,16
+Everton,Manchester City,16
+Manchester United,Wolves,16
+Newcastle United,Liverpool,16
+Southampton,West Ham United,16
+Tottenham Hotspur,Fulham,16
+West Bromwich Albion ,Leeds United,16
+Brighton & Hove Albion,Wolves,17
+Burnley,Fulham,17
+Chelsea,Manchester City,17
+Crystal Palace,Sheffield United,17
+Everton,West Ham United,17
+Manchester United,Aston Villa ,17
+Newcastle United,Leicester,17
+Southampton,Liverpool,17
+Tottenham Hotspur,Leeds United,17
+West Bromwich Albion ,Arsenal,17
+Arsenal,Crystal Palace,18
+Aston Villa ,Tottenham Hotspur,18
+Fulham,Manchester United,18
+Leeds United,Southampton,18
+Leicester,Chelsea,18
+Liverpool,Burnley,18
+Manchester City,Brighton & Hove Albion,18
+Sheffield United,Newcastle United,18
+West Ham United,West Bromwich Albion ,18
+Wolves,Everton,18
+Arsenal,Newcastle United,19
+Aston Villa ,Everton,19
+Fulham,Chelsea,19
+Leeds United,Brighton & Hove Albion,19
+Leicester,Southampton,19
+Liverpool,Manchester United,19
+Manchester City,Crystal Palace,19
+Sheffield United,Tottenham Hotspur,19
+West Ham United,Burnley,19
+Wolves,West Bromwich Albion ,19
+Brighton & Hove Albion,Fulham,20
+Burnley,Aston Villa ,20
+Chelsea,Wolves,20
+Crystal Palace,West Ham United,20
+Everton,Leicester,20
+Manchester United,Sheffield United,20
+Newcastle United,Leeds United,20
+Southampton,Arsenal,20
+Tottenham Hotspur,Liverpool,20
+West Bromwich Albion ,Manchester City,20
+Arsenal,Manchester United,21
+Brighton & Hove Albion,Tottenham Hotspur,21
+Chelsea,Burnley,21
+Crystal Palace,Wolves,21
+Everton,Newcastle United,21
+Leicester,Leeds United,21
+Manchester City,Sheffield United,21
+Southampton,Aston Villa ,21
+West Bromwich Albion ,Fulham,21
+West Ham United,Liverpool,21
+Aston Villa ,West Ham United,22
+Burnley,Manchester City,22
+Fulham,Leicester,22
+Leeds United,Everton,22
+Liverpool,Brighton & Hove Albion,22
+Manchester United,Southampton,22
+Newcastle United,Crystal Palace,22
+Sheffield United,West Bromwich Albion ,22
+Tottenham Hotspur,Chelsea,22
+Wolves,Arsenal,22
+Aston Villa ,Arsenal,23
+Burnley,Brighton & Hove Albion,23
+Fulham,West Ham United,23
+Leeds United,Crystal Palace,23
+Liverpool,Manchester City,23
+Manchester United,Everton,23
+Newcastle United,Southampton,23
+Sheffield United,Chelsea,23
+Tottenham Hotspur,West Bromwich Albion ,23
+Wolves,Leicester,23
+Arsenal,Leeds United,24
+Brighton & Hove Albion,Aston Villa ,24
+Chelsea,Newcastle United,24
+Crystal Palace,Burnley,24
+Everton,Fulham,24
+Leicester,Liverpool,24
+Manchester City,Tottenham Hotspur,24
+Southampton,Wolves,24
+West Bromwich Albion ,Manchester United,24
+West Ham United,Sheffield United,24
+Arsenal,Manchester City,25
+Aston Villa ,Leicester,25
+Brighton & Hove Albion,Crystal Palace,25
+Burnley,West Bromwich Albion ,25
+Fulham,Sheffield United,25
+Liverpool,Everton,25
+Manchester United,Newcastle United,25
+Southampton,Chelsea,25
+West Ham United,Tottenham Hotspur,25
+Wolves,Leeds United,25
+Chelsea,Manchester United,26
+Crystal Palace,Fulham,26
+Everton,Southampton,26
+Leeds United,Aston Villa ,26
+Leicester,Arsenal,26
+Manchester City,West Ham United,26
+Newcastle United,Wolves,26
+Sheffield United,Liverpool,26
+Tottenham Hotspur,Burnley,26
+West Bromwich Albion ,Brighton & Hove Albion,26
+Aston Villa ,Wolves,27
+Brighton & Hove Albion,Leicester,27
+Burnley,Arsenal,27
+Chelsea,Everton,27
+Liverpool,Fulham,27
+Manchester City,Manchester United,27
+Sheffield United,Southampton,27
+Tottenham Hotspur,Crystal Palace,27
+West Bromwich Albion ,Newcastle United,27
+West Ham United,Leeds United,27
+Arsenal,Tottenham Hotspur,28
+Crystal Palace,West Bromwich Albion ,28
+Everton,Burnley,28
+Fulham,Manchester City,28
+Leeds United,Chelsea,28
+Leicester,Sheffield United,28
+Manchester United,West Ham United,28
+Newcastle United,Aston Villa ,28
+Southampton,Brighton & Hove Albion,28
+Wolves,Liverpool,28
+Brighton & Hove Albion,Newcastle United,29
+Burnley,Leicester,29
+Crystal Palace,Manchester United,29
+Fulham,Leeds United,29
+Liverpool,Chelsea,29
+Manchester City,Wolves,29
+Sheffield United,Aston Villa ,29
+Tottenham Hotspur,Southampton,29
+West Bromwich Albion ,Everton,29
+West Ham United,Arsenal,29
+Arsenal,Liverpool,30
+Aston Villa ,Fulham,30
+Chelsea,West Bromwich Albion ,30
+Everton,Crystal Palace,30
+Leeds United,Sheffield United,30
+Leicester,Manchester City,30
+Manchester United,Brighton & Hove Albion,30
+Newcastle United,Tottenham Hotspur,30
+Southampton,Burnley,30
+Wolves,West Ham United,30
+Brighton & Hove Albion,Everton,31
+Burnley,Newcastle United,31
+Crystal Palace,Chelsea,31
+Fulham,Wolves,31
+Liverpool,Aston Villa ,31
+Manchester City,Leeds United,31
+Sheffield United,Arsenal,31
+Tottenham Hotspur,Manchester United,31
+West Bromwich Albion ,Southampton,31
+West Ham United,Leicester,31
+Arsenal,Fulham,32
+Aston Villa ,Manchester City,32
+Chelsea,Brighton & Hove Albion,32
+Everton,Tottenham Hotspur,32
+Leeds United,Liverpool,32
+Leicester,West Bromwich Albion ,32
+Manchester United,Burnley,32
+Newcastle United,West Ham United,32
+Southampton,Crystal Palace,32
+Wolves,Sheffield United,32
+Arsenal,Everton,33
+Aston Villa ,West Bromwich Albion ,33
+Fulham,Tottenham Hotspur,33
+Leeds United,Manchester United,33
+Leicester,Crystal Palace,33
+Liverpool,Newcastle United,33
+Manchester City,Southampton,33
+Sheffield United,Brighton & Hove Albion,33
+West Ham United,Chelsea,33
+Wolves,Burnley,33
+Brighton & Hove Albion,Leeds United,34
+Burnley,West Ham United,34
+Chelsea,Fulham,34
+Crystal Palace,Manchester City,34
+Everton,Aston Villa ,34
+Manchester United,Liverpool,34
+Newcastle United,Arsenal,34
+Southampton,Leicester,34
+Tottenham Hotspur,Sheffield United,34
+West Bromwich Albion ,Wolves,34
+Arsenal,West Bromwich Albion ,35
+Aston Villa ,Manchester United,35
+Fulham,Burnley,35
+Leeds United,Tottenham Hotspur,35
+Leicester,Newcastle United,35
+Liverpool,Southampton,35
+Manchester City,Chelsea,35
+Sheffield United,Crystal Palace,35
+West Ham United,Everton,35
+Wolves,Brighton & Hove Albion,35
+Brighton & Hove Albion,West Ham United,36
+Burnley,Leeds United,36
+Chelsea,Arsenal,36
+Crystal Palace,Aston Villa ,36
+Everton,Sheffield United,36
+Manchester United,Leicester,36
+Newcastle United,Manchester City,36
+Southampton,Fulham,36
+Tottenham Hotspur,Wolves,36
+West Bromwich Albion ,Liverpool,36
+Brighton & Hove Albion,Manchester City,37
+Burnley,Liverpool,37
+Chelsea,Leicester,37
+Crystal Palace,Arsenal,37
+Everton,Wolves,37
+Manchester United,Fulham,37
+Newcastle United,Sheffield United,37
+Southampton,Leeds United,37
+Tottenham Hotspur,Aston Villa ,37
+West Bromwich Albion ,West Ham United,37
+Arsenal,Brighton & Hove Albion,38
+Aston Villa ,Chelsea,38
+Fulham,Newcastle United,38
+Leeds United,West Bromwich Albion ,38
+Leicester,Tottenham Hotspur,38
+Liverpool,Crystal Palace,38
+Manchester City,Everton,38
+Sheffield United,Burnley,38
+West Ham United,Southampton,38
+Wolves,Manchester United,38

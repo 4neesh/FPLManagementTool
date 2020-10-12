@@ -18,11 +18,11 @@ public class WebController {
 		this.fixtureService = fixtureService;
 	}
 	
-//    @GetMapping("/")
-//    public String home() {
-//    	return "/fixturePage";
-//    }
-//    
+    @GetMapping("/")
+    public String home() {
+    	return "/home";
+    }
+    
     @GetMapping("/allFixtures")
 	public String getEmployees(Model model){
 		List<Fixture> fixturesList = fixtureService.findAll();
