@@ -38,20 +38,16 @@ public class WebController {
 	public String showFormForUpdate(@RequestParam("fixtureId") int id,
 									Model model) {
 		Fixture fixtureToUpdate = fixtureService.findFixture(id);
-		model.addAttribute("fixtureToUpdate", fixtureToUpdate);
+		model.addAttribute("fixture", fixtureToUpdate);
 		return "updateFixture";
 	}
-    
-    @GetMapping("/te")
-    public String test() {
-    	return "te";
-    }
+
     
     @PostMapping("/save")
 	public String saveEmployee(@ModelAttribute("fixture") Fixture fixture) {
 		
 		fixtureService.save(fixture);
-		return "fixturePage";
+		return "redirect:/allFixtures";
 		
 	}
 }

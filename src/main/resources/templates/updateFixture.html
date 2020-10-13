@@ -9,18 +9,21 @@
 
 </head>
 <body>
- <hr>
+<div class="container">
+
     <h2>
         Update Fixture
     </h2>
+     <hr>
+<a href="/">Home</a>
 
 <form action="#" th:action="@{/save}"
-		th:object="${fixture}" method="POST">
-		
-	<input type="hidden" th:field="*{id}">
+		th:object="${fixture}" method="post">
 	
-	<input type="text" th:field="*{home}" placeholder="Home"
-		class="form-control mb-4 col-4">		
+	<p><input type="hidden" th:field="*{id}"/></p>
+	 
+	 <p>HOME<input type="text" th:field="*{home}" placeholder="Home"
+		class="form-control mb-4 col-4"/></p>	
 
 	<input type="text" th:field="*{away}" placeholder="Away"
 		class="form-control mb-4 col-4">
@@ -28,8 +31,10 @@
 	<input type="text" th:field="*{gameweek}" placeholder="Gameweek"
 		class="form-control mb-4 col-4">		
 		
-	<button type="submit" class="btn btn-info col-2">Save</button>
+	<button type="submit" class="btn btn-info col-2">Save</button> 
 	
-</form> 
+</form>  
+</div>
+
 </body>
 </html>
