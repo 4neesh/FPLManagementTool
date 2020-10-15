@@ -40,4 +40,11 @@ public class FixtureServiceImpl implements FixtureService {
     public void save(Fixture fixture) {
     	fixtureRepository.save(fixture);
     }
+
+
+
+	@Override
+	public void delete(int id) {
+fixtureRepository.deleteById(id);		
+	}
 }

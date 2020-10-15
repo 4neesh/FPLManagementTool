@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
-    <title>Employee Directory</title>
+    <title>Fixture Update</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -12,35 +12,35 @@
 <div class="container">
     <hr>
     <h2>
-        FPL Fixtures 2020-21
+        Team difficulties 2020-21
     </h2>
     <hr>
-<a th:href="@{/}">Back Home</a> <br>
-<a th:href="@{updateFixture}">Add new fixture</a>
+<a th:href="@{/}">Back Home</a>
 <table class="table table-bordered table-striped">
     <thead class="thead-dark">
     <tr>
-        <th>Gameweek</th>
+        <th>Team</th>
         <th>Home</th>
         <th>Away </th>
-        <th>Edit</th>
     </tr>
     </thead>
 <tbody>
 
-<tr th:each="tempFixture : ${fixtures}">
-    <td th:text="${tempFixture.gameweek}"/>
+<tr th:each="team : ${difficultyList}">
+    <td th:text="${team.team}"/>
 
-    <td th:text="${tempFixture.home}"/>
+    <td th:text="${team.home}"/>
 
-    <td th:text="${tempFixture.away}"/>
-    <td>
+    <td th:text="${team.away}"/>
+    <!-- <td>
     <a th:href="@{updateFixture(fixtureId=${tempFixture.id})}"
-	class="btn btn-info btn-sm">Edit</a> <a th:href="@{deleteFixture(fixtureId=${tempFixture.id})}"
-	class="btn btn-danger btn-sm r">Delete</a></td>
+	class="btn btn-info btn-sm">Edit</a></td> -->
 </tr>
 </tbody>
 </table>
 </div>
+
+
 </body>
+
 </html>

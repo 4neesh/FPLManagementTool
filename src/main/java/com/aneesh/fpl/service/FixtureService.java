@@ -11,4 +11,6 @@ public interface FixtureService {
     public Fixture findFixture(int id);
     
     public void save(Fixture fixture);
+    
+    public void delete(int id);
 }

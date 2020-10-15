@@ -25,15 +25,17 @@
 	 <p>HOME<input type="text" th:field="*{home}" placeholder="Home"
 		class="form-control mb-4 col-4"/></p>	
 
-	<input type="text" th:field="*{away}" placeholder="Away"
-		class="form-control mb-4 col-4">
+	<p>AWAY<input type="text" th:field="*{away}" placeholder="Away"
+		class="form-control mb-4 col-4"></p>
 		
-	<input type="text" th:field="*{gameweek}" placeholder="Gameweek"
-		class="form-control mb-4 col-4">		
+	<p>Gameweek<input type="text" th:field="*{gameweek}" placeholder="Gameweek"
+		class="form-control mb-4 col-4"></p>		
 		
 	<button type="submit" class="btn btn-info col-2">Save</button> 
 	
 </form>  
+<hr>
+<a th:href="@{/allFixtures}">Back to Fixture List</a>
 </div>
 
 </body>
