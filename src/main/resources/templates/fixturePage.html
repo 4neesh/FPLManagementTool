@@ -12,18 +12,20 @@
 <div class="container">
     <hr>
     <h2>
+       <a class="btn btn-dark btn-sm" th:href="@{/}">Home</a> <br>
         FPL Fixtures 2020-21
     </h2>
     <hr>
-<a th:href="@{/}">Back Home</a> <br>
-<a th:href="@{updateFixture}">Add new fixture</a>
 <table class="table table-bordered table-striped">
     <thead class="thead-dark">
     <tr>
         <th>Gameweek</th>
         <th>Home</th>
+        <th></th>
+         <th></th>
         <th>Away </th>
-        <th>Edit</th>
+        <th>Update <a class="btn btn-success btn-sm r" th:href="@{add-fixture}">Add new fixture</a>
+        </th>
     </tr>
     </thead>
 <tbody>
@@ -32,11 +34,18 @@
     <td th:text="${tempFixture.gameweek}"/>
 
     <td th:text="${tempFixture.home}"/>
-
+    
+	<td th:text="${homeMap.get(tempFixture.home)}"/>
+	<td>1</td>
+	
     <td th:text="${tempFixture.away}"/>
     <td>
-    <a th:href="@{updateFixture(fixtureId=${tempFixture.id})}"
-	class="btn btn-info btn-sm">Edit</a> <a th:href="@{deleteFixture(fixtureId=${tempFixture.id})}"
+    <a 
+    th:href="@{updateFixture(fixtureId=${tempFixture.id})}"
+	class="btn btn-info btn-sm">Edit</a> 
+	<a 
+	onclick="if (!(confirm('Are you sure you want to delete?'))) return false"
+	th:href="@{delete-fixture(fixtureId=${tempFixture.id})}"
 	class="btn btn-danger btn-sm r">Delete</a></td>
 </tr>
 </tbody>

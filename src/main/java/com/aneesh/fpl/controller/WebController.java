@@ -1,10 +1,10 @@
 package com.aneesh.fpl.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -34,8 +34,13 @@ public class WebController {
     @GetMapping("/all-fixtures")
 	public String getEmployees(Model model){
 		List<Fixture> fixturesList = fixtureService.findAll();
-		
+		Map<String, Integer> homeMap = difficultyService.getHomeMap();
+		Map<String, Integer> awayMap = difficultyService.getAwayMap();
+
 		model.addAttribute("fixtures", fixturesList);
+		model.addAttribute("homeMap", homeMap);
+		model.addAttribute("awayMap", awayMap);
+
 		return "fixturePage";
 	}
     
@@ -46,6 +51,13 @@ public class WebController {
 		model.addAttribute("fixture", fixtureToUpdate);
 		return "updateFixture";
 	}
+    
+    @GetMapping("/add-fixture")
+  	public String showFormForAdd(Model model) {
+    	Fixture fixture = new Fixture();
+  		model.addAttribute("fixture", fixture);
+  		return "add-fixture";
+  	}
     
     @GetMapping("/team-difficulties")
     public String showTeamDifficulties(Model model) {
@@ -64,10 +76,13 @@ public class WebController {
 		
 	}
     
-    @DeleteMapping("/deleteFixture")
+    @GetMapping("/delete-fixture")
     public String deleteFixture(@RequestParam("fixtureId") int id) {
+    	System.out.println("delete");
     	fixtureService.delete(id);
 		return "redirect:/all-fixtures";
 
     }
+    
+    
 }
