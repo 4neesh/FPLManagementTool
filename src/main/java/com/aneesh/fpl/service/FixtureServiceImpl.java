@@ -19,8 +19,6 @@ public class FixtureServiceImpl implements FixtureService {
         fixtureRepository = theFixtureRepository;
     }
 
-
-
     @Override
     public List<Fixture> findAll() {
 

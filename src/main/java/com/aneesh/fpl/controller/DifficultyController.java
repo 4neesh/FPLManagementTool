@@ -30,4 +30,6 @@ public class DifficultyController {
 	public List<Difficulty> getDifficulties(){
 		return service.findAll();
 	}
+	
+	
 }

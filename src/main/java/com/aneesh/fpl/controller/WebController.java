@@ -34,6 +34,7 @@ public class WebController {
     @GetMapping("/all-fixtures")
 	public String getEmployees(Model model){
 		List<Fixture> fixturesList = fixtureService.findAll();
+		difficultyService.findAll();
 		Map<String, Integer> homeMap = difficultyService.getHomeMap();
 		Map<String, Integer> awayMap = difficultyService.getAwayMap();
 

@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="difficulty")
+@Table(name="team_difficulty")
 public class Difficulty {
 
 	
@@ -18,14 +18,14 @@ public class Difficulty {
     private int id;
 	
 
-	@Column(name="team")
+	@Column(name="Team")
 	private String team;
 	
-	@Column(name="home")
+	@Column(name="Home")
 	private int home;
 	
 
-	@Column(name="away")
+	@Column(name="Away")
 	private int away;
 
 
